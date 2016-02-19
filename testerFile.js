@@ -15,20 +15,10 @@ var obj = {
 
 
 };
-
-locator.register('testGet',obj);
 locator.register('func',obj.last);
-
 var func = locator.get('func');
-
 var testGet = locator.get('testGet');
-var testSecond = locator.get('testGet',true);
-var testThird = locator.get('testGet',true,'third');
-
 
 
 
 func();
-testGet();
-testSecond();
-testThird();
